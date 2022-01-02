@@ -1,4 +1,4 @@
-
+#use a white glove for this (I'll improve this)
 #install cv2 (pip install opencv-python)
 #install sklearn
 
