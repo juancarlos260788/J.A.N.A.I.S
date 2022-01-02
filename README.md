@@ -1,9 +1,10 @@
 # Janais
 
 #J.A.N.A.I.S (Just Another Normal Artificial Intelligence System)
+
 #Created by Juan Carlos P. Melgar
 
-#Reason: If Iron Man had JARVIS and FRIDAY, then why can't I have my own assistant?)
+
 
 
 #THE FOLLOWING REQUIREMENTS NEED TO BE INSTALLED IN THE CONSOLE#
