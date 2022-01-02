@@ -1,6 +1,7 @@
 # Janais
 
-J.A.N.A.I.S (Just Another Normal Artificial Intelligence System)
+**J.A.N.A.I.S** _(Just Another Normal Artificial Intelligence System)_
+
 
 Created by Juan Carlos P. Melgar
 
