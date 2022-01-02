@@ -1,4 +1,4 @@
-# Janais
+# Janais Project
 
 **J.A.N.A.I.S** _(Just Another Normal Artificial Intelligence System)_
 
