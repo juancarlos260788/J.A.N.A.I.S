@@ -1,6 +1,7 @@
 #use a white glove for this (I'll improve this)
+#use the console for this...
 #install cv2 (pip install opencv-python)
-#install sklearn
+#install sklearn : pip install scikit-learn 
 
 import cv2
 import numpy as np
@@ -20,7 +21,9 @@ while True:
   imSeg = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
   imSegFlipped = cv2.flip(imSeg, 1)
   imSegFlipped = cv2.resize(imSegFlipped,(500,400))
-
+#so we create a mask var
+#and also a maskOpen and close var
+  
   mask = cv2.inRange(imSegFlipped, lb , ub)
   mask = cv2.resize(mask,(500, 400))
 
@@ -33,6 +36,7 @@ while True:
   conts, h =cv2.findContours(maskClose,cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
 #contour area process (marge)
+#ok this part is quite sick coz you need to create a lot of var...its quite annoying tbh
   if(len(conts)!=0):
     b = max(conts, key=cv2.contourArea)
     west = tuple(b[b[:, :, 0].argmin()][0])
