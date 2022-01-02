@@ -7,7 +7,7 @@ Created by Juan Carlos P. Melgar
 
 
 
-THE FOLLOWING REQUIREMENTS NEED TO BE INSTALLED IN THE CONSOLE
+**THE FOLLOWING REQUIREMENTS NEED TO BE INSTALLED IN THE CONSOLE**
 
 -Install pyttsx3: pip install pyttsx3
 
@@ -26,4 +26,4 @@ THE FOLLOWING REQUIREMENTS NEED TO BE INSTALLED IN THE CONSOLE
 
 FIRST STEP: Voice recognition and transcription into the console.
 
-***Unfortunately, JANAIS only recognize English :-(  ***
+_**Unfortunately, JANAIS only recognize English :-(  **_
